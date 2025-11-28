@@ -85,17 +85,7 @@ pip install -r requirements.txt
 streamlit run text2sql.py
  ```
 
-Make sure `wholesale.db` is placed in the project folder.
 
----
-
-## Project Structure
- ```
-text2sql.py          Main application
-wholesale.db         SQLite database
-requirements.txt     Dependency list
-README.md            Documentation
- ```
 
 ---
 
