@@ -83,7 +83,7 @@ python -m src.evaluation.run_eval
 ```
 
 This will:
-1. Load 10 gold standard queries from `data/gold_standard/eval_set.json`
+1. Load 10 standard queries from `data/gold_standard/eval_set.json`
 2. Generate SQL for each question
 3. Compare results against ground truth
 4. Calculate metrics:
@@ -203,17 +203,5 @@ This project follows data science best practices:
 - Type hints throughout
 - Modular, importable components
 
-## License
 
-MIT License
-
-## Acknowledgments
-
-- Built following the Cookiecutter Data Science project template
-- Powered by Google Gemini AI
-- Validation by Pandera
-
----
-
-Questions or Issues? Check `experiments/logs.csv` for debugging insights.
 
