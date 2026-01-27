@@ -1,4 +1,9 @@
 streamlit
 pandas
-altair
 google-generativeai
+altair
+pydantic
+pydantic-settings
+pandera
+pytest
+python-dotenv
