@@ -3,16 +3,8 @@
 A production-grade Text-to-SQL system powered by Google's Gemini AI, designed for reproducibility, scientific evaluation, and secure collaboration.
 
 ![Text2SQL Studio Demo](demo.png)
-
-## Project Philosophy
-
-This is a Tier-1 Data Science Asset with:
-- Reproducible project structure (Cookiecutter standard)
-- Secure configuration management (no hardcoded secrets)
-- Scientific evaluation pipeline with metrics
-- Experiment tracking for prompt engineering
-- Data validation guardrails
-- Importable API for notebooks
+![Text2SQL Studio Demo](demo2.png)
+![Text2SQL Studio Demo](demo3.png)
 
 ## Project Structure
 
@@ -22,7 +14,7 @@ my_project/
 │   ├── raw/                    
 │   ├── processed/              wholesale.db SQLite database
 │   └── gold_standard/          
-│       └── eval_set.json       10 gold standard queries
+│       └── eval_set.json       10 standard queries
 ├── src/
 │   ├── core/                   
 │   │   ├── llm.py              Gemini AI client with rate limiting
@@ -224,3 +216,4 @@ MIT License
 ---
 
 Questions or Issues? Check `experiments/logs.csv` for debugging insights.
+
